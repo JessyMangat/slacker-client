@@ -16,18 +16,76 @@ body > section {
 
 aside{
 	display : inline-block;
-	width : 50%;
+	width : 45%;
 	float : left;
 }
 
 aside img{
-	width : 80%;
+	width : 90%;
 	height : auto;
 	border-radius: 5%;
+	margin-left: 2rem;
 }
 
 main{
 	display : inline-block;
-	width : 49%;
+	width : 50%;
 	float : left;
+}
+
+h1{
+	font-size: 3rem;
+	font-weight: 400;
+	color : #470ea0;
+	margin-bottom: 0;
+}
+
+h2{
+	font-size : 2rem;
+	color : #470ea0;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h3{
+	font-weight: 400;
+	margin-top : 0.5rem;
+	color : #989898;
+}
+
+@media (max-width: 768px){
+
+  aside {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  main {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top : 0;
+  }
+
+  h1{
+    font-size : 3rem;
+  }
+
+  h2{
+    font-size : 2rem;
+
+  }
+
+  h3{
+    font-size : 1rem;
+  }
+
+  aside img {
+    width: 60%;
+    height : 10%;
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+
+
 }

@@ -56,12 +56,12 @@ aside{
 }
 
 aside img{
-	width : 80%;
+	width : 70%;
 	height : auto;
 	position : relative;
 	top : 50%;
 	left : 50%;
-	transform : translate( -50%, -50%); 
+	transform : translate( -50%, -40%); 
 	border-radius : 50%;
 }
 
@@ -73,18 +73,31 @@ main{
 
 h1 {
 	font-size : 3rem;
+	font-weight: 400;
+	color : #470ea0;
+	margin-bottom: 0;
+	margin-top: 1.5rem;
 }
+
 
 h2 {
 	display: inline-block;
 	font-size: 1.5rem;
 	margin-right : 8rem; 
+	font-weight: 400;
+	color : #470ea0;
+	margin-left: 1rem;
+	margin-top : 0;
 }
 
 h3{
 	display: inline-block;
 	font-size: 1rem;
+	font-weight: normal;
+	color : #470ea0;
+	margin-top: 0;
 }
+
 
 p{
 	line-height: 2rem;
@@ -92,7 +105,7 @@ p{
 }
 
 main > section{
-	border-top : 2px #000000 solid;
+	border-top : 2px #470ea0 solid;
 	padding-top: 2rem;
 }
 
@@ -105,8 +118,6 @@ span.label {
 	font-weight: 600;
 	min-width: 8rem;
 	display: inline-block;
-}
-
-span.value{
-
+	color : #470ea0;
+	margin-left : 1rem;
 }

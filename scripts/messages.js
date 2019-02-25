@@ -56,7 +56,7 @@ function createArticle( $message ) {
         let message = {
          "user": {
          "name": "Jessy",
-             "image": "https://www.telegraph.co.uk/content/dam/tv/2018/01/24/barney_trans_NvBQzQNjv4BqBmo3ZBPOSwC7GqRZsuXAwDqFnpLh5wjcaIDu-Ojf3tk.jpg?"
+             "image": "https://i.pinimg.com/236x/2b/32/64/2b3264519ac88cb4e89216d41ca8ce4c--profile-pics.jpg?b=t"
              },
          "message": {
          "text": event.target.value,
