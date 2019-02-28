@@ -1,0 +1,42 @@
+Concepts used for integrative project
+
+1. responsive web design
+Instead of using absolute values (px), using percentages allows pages to maintain structure at all page sizes. 
+2.  
+by making use of the aside, you are able to split the page into distinct sections that can be styled independently 
+3. html page linking
+	By referencing another file, you can link pages to each other. 
+4.  power shell
+	Using power shell to install vagrant to desired directory
+5. vagrant
+	Using cli with vagrant
+6. git
+	Using git to commit and push files onto github
+7. Deployment
+Used linux to remote into a bridge server, and from the bridge server connect to another server to deploy files
+8.  media query
+	Using a media queries to have different css for certain conditions (pixel width)
+9.  css float
+	Using the float to lock elements into place
+10. css margins
+	Adjusting margins to ensure design is as close to mockup as possible
+11. css padding
+	Adjusting padding to ensure design is as close to mockup as possible
+12. rem	
+	Using rem instead of em for font sizing and spacing
+13. input fields
+	Using the input field html tag allows you to create a username and password field
+14. border radius
+	Used the border radius to add a rounded edge to images
+15. inline-block	
+When elements need to be displayed side by side, the inline block can be used. This changes it from a block element to an inline-block element. 
+16. git status
+	Using git status command to view which files have had a change to them (green vs red)
+17. css color
+	Using hex codes to ensure design is as close to mockups as possible
+18.  selectors
+	Using css selectors with html ids to ensure the correct elements are styled
+19. virtualbox
+	Virtual box used to manage all virtual machines (vagrant)
+20. scrum
+	Developing the program with user stories as specific scenarios
