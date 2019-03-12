@@ -48,7 +48,7 @@ aside{
 	display : inline-block;
 	width : 19%;
 	float : left;
-	height : 38rem;
+	height : 44rem;
 	background-color: #76768e;
 	color : white;
 	margin-top: 0.5rem;
@@ -83,7 +83,7 @@ display:inline-block;
 }
 
 #messages-list {
-height:30em;
+height:35em;
 overflow-y:scroll;
 border:1px blue solid;
 margin:auto 0;
