@@ -7,8 +7,7 @@ html, body {
 	height : 100%;
 	margin : 0;
 }
-
-nav#header{
+nav{
 	display : inline-block;
 	width : 100%;
 	height : 5rem;
@@ -44,80 +43,55 @@ nav section span a{
 	text-decoration: none;
 }
 
-section {
-	height: 100%;
+aside{
+	margin-left : 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.pinimg.com/originals/c2/a9/22/c2a922137902261b3e6de138cd6091f3.jpg");
+	width : 39%;
+	height : 40rem;
+	float : left;
+	display : inline-block;
+	color : white;
 }
 
-aside{
-	display : inline-block;
-	width : 35%;
-	float : left;
-	height : 70%;
+aside h1{
+	font-size : 1rem;
+	font-weight : normal;
+	padding-top : 5%;
+	padding-left : 5%;
+}
+
+aside h2{
+	font-size : 1rem;
+	font-weight : normal;
+	padding-top : 5%;
+	padding-left : 5%;
+}
+
+aside p{
+	font-size : 1rem;
+	font-weight : normal;
+	padding-top : 5%;
+	padding-left : 5%;
+	padding-right : 5%;
 }
 
 aside img{
-	width : 70%;
+	border-radius: 50%;
 	height : auto;
-	position : relative;
-	top : 50%;
-	left : 50%;
-	transform : translate( -50%, -40%); 
-	border-radius : 50%;
+	width : 10rem;
+	display : block;
+	margin-right: auto;
+	margin-left : auto;
+	margin-top : 4rem;
+	margin-bottom: 4rem;
 }
 
 main{
 	display : inline-block;
-	width : 64%;
-	float : left;
-}
-
-h1 {
-	font-size : 3rem;
-	font-weight: 400;
-	color : #470ea0;
-	margin-bottom: 0;
-	margin-top: 1.5rem;
-}
-
-
-h2 {
-	display: inline-block;
-	font-size: 1.5rem;
-	margin-right : 8rem; 
-	font-weight: 400;
-	color : #470ea0;
-	margin-left: 1rem;
-	margin-top : 0;
-}
-
-h3{
-	display: inline-block;
-	font-size: 1rem;
-	font-weight: normal;
-	color : #470ea0;
-	margin-top: 0;
-}
-
-
-p{
-	line-height: 2rem;
-	font-size: 1.2rem;
-}
-
-main > section{
-	border-top : 2px #470ea0 solid;
-	padding-top: 2rem;
-}
-
-article{
-	font-size: 1.2rem;
-	line-height: 3rem;
-}
-
-span.label {
-	font-weight: 600;
-	min-width: 8rem;
-	display: inline-block;
-	color : #470ea0;
-	margin-left : 1rem;
+	background-color: #76768e;
+	width : 61%;
+	height : 40rem;
+	margin-right: 0%;
+	float-left;
+	color : white;
 }
